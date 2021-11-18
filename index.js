@@ -3,7 +3,7 @@ const port = process.env.PORT || 8000;
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Web Dev Com Boas Práticas - Exercício 4 - Deploy to Heroku Automatically v2');
+    res.send('Web Dev Com Boas Práticas - Exercício 5 - Docker with Deploy to Heroku Automatically from GitHub');
 });
 
 app.listen(port, () => { console.log('Our App Is Up And Running!'); });
